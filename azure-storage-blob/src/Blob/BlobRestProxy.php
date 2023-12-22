@@ -3769,7 +3769,7 @@ class BlobRestProxy extends ServiceRestProxy implements IBlob
             $options->getSnapshot()
         );
 
-        $options->setIsStreaming(true);
+        // $options->setIsStreaming(true);
 
         return $this->sendAsync(
             $method,
